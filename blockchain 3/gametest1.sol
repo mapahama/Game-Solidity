@@ -1,5 +1,6 @@
 pragma solidity ^0.8.25;
 import "hardhat/console.sol";
+// test push in GitHub
 // TODO: if number of registered players is <3, dont start the game and return the money to the players
 // TODO: publish all player addresses and numbers AND publish winning number
 //       in order to make the game transparent and verifiable
