@@ -109,7 +109,7 @@ contract Game {
     // the function appears in the control panel as a button, NO parameters must be entered
     // "public" - acessable outside of this smart contract
     // payable means that transactions can be sent via this function and published on the blockchain (write)
-    // we send the prize of the game to the winner player
+    // we send the prize of the game to the winner  player
     // onlyOwnerHasAccess - we are calling the modifier function, before executing the "endGame" code body
     function endGame() public payable onlyOwnerHasAccess returns (bool) {
         
